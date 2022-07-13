@@ -6,7 +6,8 @@ app.get('/', (req, res) => {
     res.send("Welcome to the homepage bro");
 });
 
-app.listen(3000, () => {
+const port = process.emitWarning.port || 3000;
+app.listen(port, () => {
     console.log("Wazzapp!!!");
 });
 
